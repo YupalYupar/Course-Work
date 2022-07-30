@@ -30,22 +30,3 @@ for i in res_dict:
         fila.write(imag.content)
     y = yadisk.YaDisk(token='')
     y.upload(picture_name,f"/photoes/{picture_name}")
-
-
-
-
-
-#     photo_dict[f'{photo_name}'] = photo_url
-#     photo_json = json.dumps(photo_dict)
-# pprint(photo_json)
-# with open('photo_name.jpg', "w") as file:
-#     file.write(json.dumps(photo_dict))
-# y = yadisk.YaDisk(token='AQAAAABjDQfcAADLWyfAO2cbd0jovRWy6gg__gI')
-# y.upload('test.json','/photoes/photo_name.txt')
-
-
-
-
-    # for d in i['sizes']:
-    #     if d['type'] == 'z':
-    #         print(d['url'])
